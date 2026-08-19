@@ -1,0 +1,27 @@
+{
+  "company": {
+    "base_revenue": 10000,
+    "net_debt": 2500,
+    "shares_outstanding": 500,
+    "revenue_growth": [0.12, 0.10, 0.09, 0.07, 0.05],
+    "ebit_margin": [0.18, 0.19, 0.20, 0.20, 0.21],
+    "tax_rate": 0.25,
+    "da_pct_revenue": [0.04],
+    "capex_pct_revenue": [0.05],
+    "nwc_pct_revenue_change": [0.10],
+    "terminal_growth": 0.025
+  },
+  "wacc": {
+    "risk_free_rate": 0.042,
+    "equity_risk_premium": 0.05,
+    "beta": 1.15,
+    "cost_of_debt": 0.06,
+    "tax_rate": 0.25,
+    "market_value_equity": 45000,
+    "market_value_debt": 5000
+  },
+  "sensitivity": {
+    "wacc_range": [0.08, 0.085, 0.09, 0.095, 0.10],
+    "growth_range": [0.015, 0.02, 0.025, 0.03, 0.035]
+  }
+}
